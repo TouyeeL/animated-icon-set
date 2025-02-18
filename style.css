@@ -1,11 +1,9 @@
 /* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
+
 
 /* temp background color */
 body {
-    background: lightgray;
+    background: #000;;
 }
   
 /* vertical and horizontal centering */
@@ -28,8 +26,16 @@ main section {
 
 /* scale SVG to fit container */
 svg {
+  stroke: white;
   width: 100%; /* or any specific size */
   height: auto;
   /* Center and fit */
+  /* preserveAspectRatio is not a valid CSS property */
   preserveAspectRatio: xMidYMid meet;
+}
+
+#heart {
+  &.active {
+    stroke:#FDA760
+  }
 }
