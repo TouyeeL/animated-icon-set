@@ -27,7 +27,7 @@ main section {
 /* scale SVG to fit container */
 svg {
   stroke: white;
-  width: 100%; /* or any specific size */
+  width: 200%; /* or any specific size */
   height: auto;
   /* Center and fit */
   /* preserveAspectRatio is not a valid CSS property */
