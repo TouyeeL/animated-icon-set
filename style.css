@@ -34,8 +34,3 @@ svg {
   preserveAspectRatio: xMidYMid meet;
 }
 
-#heart {
-  &.active {
-    stroke:#FDA760
-  }
-}
